@@ -25,6 +25,7 @@ const FROM_PATH = `${process.cwd()}/curso-node-api-js-master`;
 ```
 
 ### Uso
+__RECUERDA__ Cambiar el `namespace` por el correspondiente en cada ingesta
 
 Para ingestar un solo archivo `.txt` ejemplo los subtitulos
 
