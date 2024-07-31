@@ -1,18 +1,18 @@
 {
-  "name": "open-ingest",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev:single": "tsx -r dotenv/config src/ingest.single.ts",
-    "dev:directory": "tsx -r dotenv/config src/ingest.directory.ts"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+	"name": "open-ingest",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev:single": "tsx -r dotenv/config src/ingest.single.ts",
+		"dev:directory": "tsx -r dotenv/config src/ingest.directory.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
 	"type": "module",
 	"dependencies": {
-		"@pinecone-database/pinecone": "^0.0.12",
+		"@pinecone-database/pinecone": "^3.0.0",
 		"dotenv": "^16.0.3",
 		"hnswlib-node": "^1.4.2",
 		"langchain": "^0.0.56"
